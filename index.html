@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/c0ed0cf2f8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="Welcome to my hotel">
     <meta name="keywords" content="hotel, hotels, new england hotel"> 
@@ -22,17 +23,58 @@
             </div>
         </nav>
 
-        <div>
-            <h1>Enjoy Your Stay</h1>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores quam placeat dolor eveniet quia architecto?</p>
+                    <a class="btn" href="/about.html">About our hotel</a>
+                </div>
+            </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut distinctio, esse harum molestias 
-                qui expedita impedit sunt doloribus repellendus, atque voluptas labore voluptatibus minus!</p>
-        
-            <a href="/about.html">Button</a>
-        
         </div>
-
-
     </header>
+
+    <section id="home-info" class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">The history</span> Of Our Hotel</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ea in qui 
+            officiis accusamus quia dignissimos necessitatibus iste ipsam distinctio, 
+            nisi exercitationem consectetur odio dolorum eaque aperiam laborum alias
+            quibusdam modi corporis tenetur. Repellendus voluptas quos nisi voluptatem eaque. Ipsam!</p>
+            <a href="/about.html" class="btn btn-light">Read more</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="box bg-light">
+            <i class="fas fa-hotel fa-3x"></i>
+            <!-- fa-3x or 4x etc makes the icon bigger -->
+            <h3>Great Location</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium facere et obcaecati sequi eligendi fuga voluptates.</p>
+        </div>
+        <div class="box bg-primary">
+            <i class="fas fa-utensils fa-3x"></i>
+            <h3>Free Meals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium facere et obcaecati sequi eligendi fuga voluptates.</p>
+        </div>
+        <div class="box bg-light">
+            <i class="fas fa-dumbbell fa-3x"></i>
+            <h3>Fitness Room</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium facere et obcaecati sequi eligendi fuga voluptates.</p>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+    <!-- added clr class to clear float from features section -->
+
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2019, All rights reserver</p>
+    </footer>
 </body>
 </html>

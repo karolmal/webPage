@@ -24,7 +24,7 @@ p {
     margin: 10px 0;
 }
 
-/* utility classes*/
+/* utility classes - we can use them anywhere*/
 .container {
     margin: auto;
     max-width: 1100px;
@@ -32,6 +32,53 @@ p {
     /* it always shows the background */
     padding: 0 20px;
 
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    color: #333;
+    background: #f7c08a;
+}
+
+.clr {
+    clear: both;
 }
 
 /* navbar */
@@ -74,3 +121,74 @@ p {
     background: #444;
     color: #f7c08a;
 }
+
+/* showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    /* double dot makes u go out of the folder, one dot makes u stay in current folder */
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* home info */
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    /* if anything goes outside there is no scrollbars */
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+
