@@ -81,6 +81,16 @@ p {
     clear: both;
 }
 
+.l-heading {
+    font-size: 40px;
+}
+
+/* padding */
+/* build classes to use them later in couple places */
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px 0;}
+.py-3 { padding: 30px 0;}
+
 /* navbar */
 #navbar {
     background: #333;
@@ -183,6 +193,30 @@ p {
     margin-bottom: 10px;
 }
 
+/* about info*/
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    /* because default img is inline element */
+    margin: auto;
+    width: 70%;
+    /* to take 70% of container */
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+}
+
+
 /* footer */
 #main-footer {
     text-align: center;
@@ -190,5 +224,7 @@ p {
     color: #fff;
     padding: 20px;
 }
+
+
 
 
