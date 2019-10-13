@@ -244,6 +244,34 @@ p {
     border-radius: 50%;
 }
 
+/* Contact */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+/* focus means when ur in input area instead of blue area it changes to what u chose */
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
 /* footer */
 #main-footer {
     text-align: center;
